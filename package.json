@@ -1,0 +1,41 @@
+{
+  "name": "pricewise",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.19",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0-rc.12",
+    "mongoose": "^7.8.6",
+    "next": "latest",
+    "nodemailer": "^6.10.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-responsive-carousel": "^3.2.23",
+    "resend": "^4.3.0",
+    "supports-color": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  },
+  "description": "<div align=\"center\">   <br />     <a href=\"https://youtu.be/lh9XVGv6BHs?si=BquPyhI_o2f8jHqV\" target=\"_blank\">       <img src=\"https://github.com/adrianhajdin/pricewise/assets/151519281/315377f2-0307-4ac2-87e0-55e053ca094b\" alt=\"Project Banner\">     </a>   <br />",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
