@@ -55,12 +55,13 @@ const description = extractDescription($)
 const data = {
     url,
     currency:currency ||'$',
-    image:imageUrls[0],
-    title,
-    currentPrice: Number(currentPrice),
-    originalPrice:Number(originalPrice) || Number(currentPrice),
-    priceHistory:[],
-    discountRate:Number(discountRate),
+    image:imageUrls[0] || '',
+    title: title || 'No title',
+    currentPrice: Number(currentPrice) || 0,
+    originalPrice: Number(originalPrice) || Number(currentPrice) || 0,
+  
+    discountRate: Number(discountRate) || 0,
+    
     category:'category',
     reviewsCount:100,
     stars:4.5,
