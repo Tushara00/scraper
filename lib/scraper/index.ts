@@ -61,7 +61,7 @@ const data = {
     originalPrice: Number(originalPrice) || Number(currentPrice) || 0,
   
     discountRate: Number(discountRate) || 0,
-    
+    priceHistory: [],
     category:'category',
     reviewsCount:100,
     stars:4.5,
