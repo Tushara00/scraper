@@ -20,7 +20,7 @@ export async function GET(req: Request) {
 
   // 🔐 Token check
   if (token !== process.env.CRON_SECRET) {
-    return new NextResponse("Unauthorized", { status: 401 });
+    return new NextResponse("Unauthorized nnjjj", { status: 401 });
   }
 
   try {
